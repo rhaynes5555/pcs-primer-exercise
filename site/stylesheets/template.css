@@ -18,7 +18,7 @@ html h1 {
 body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  background-color: #001B59
+  background-color: #073596;
 }
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
@@ -28,7 +28,7 @@ body {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #D3FF87;
+  background-color: #77B008;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -39,14 +39,14 @@ body {
 
 header {
   margin: 20px;
-  background-color: #4F6DB2;
+  background-color: #215FE3;
   clear: both;
 }
 
 nav {
   width: 30%;
   float: left;
-  background-color: #FFA795;
+  background-color: #68960E;
 }
 
 nav p {
@@ -81,7 +81,7 @@ article {
   margin-left: 20px;
   padding: 10px;
   border: 1px solid black;
-  background-color: #B26656;
+  background-color: #E85539;
 
 }
 
