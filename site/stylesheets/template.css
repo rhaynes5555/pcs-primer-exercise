@@ -29,7 +29,8 @@ body {
 */
 
 .container {
-  width: 900px;
+  width: 100%;
+  min-width: 900px;
   margin-left: auto;
   margin-right: auto;
   background-color: #77B008;
@@ -46,16 +47,29 @@ header {
   margin: 20px;
   background-color: #215FE3;
   clear: both;
+  border-radius: 5px;
+  height: 160px;
+}
+
+#logo {
+  float: right;
 }
 
 nav {
   width: 30%;
+  height: 100%;
   float: left;
-  background-color: #68960E;
+  background-color: #E85539;
+  border-radius: 5px;
 }
 
 nav p {
   color: #000000;
+  padding-bottom: 1cm;
+}
+
+nav img {
+  margin-top: 10px;
 }
 
 .articles {
@@ -67,6 +81,10 @@ nav p {
 .page_heading {
     margin-left: 20px;
 } 
+
+#indent {
+  margin-left: 15px;
+}
 	
 .contact_information {
     margin-left: 20px;
@@ -76,6 +94,7 @@ nav p {
 
 .validation_badge {
   float: right;
+  clear: right;
 }
 
 article {
@@ -87,8 +106,11 @@ article {
   margin-left: 20px;
   padding: 10px;
   border: 1px solid black;
-  background-color: #E85539;
+  background-color: #68960E;
+}
 
+.article_heading h2 {
+  margin: 0;
 }
 
 /* This is a style guide to make the h2 headings for each article look like
@@ -97,7 +119,10 @@ settings from http://www.w3schools.com/tags/tag_hn.asp. */
 .big_heading {
     display: block;
     font-size: 2em;
-    margin: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
     font-weight: bold;
 }
 
@@ -105,8 +130,7 @@ settings from http://www.w3schools.com/tags/tag_hn.asp. */
   margin: 0 20px 0 20px;
   padding: 10px;
   border: 1px solid gray;
-  background-color: #ffffff;
-
+  background-color: #68960E;
 }
 
 .prompt_text {
@@ -131,6 +155,13 @@ form {
   float: right;
 }
 
+.narrow_td {
+  width: 29%;
+}
+
+.wide_td {
+  width: 71%;
+}
 
 /* finally, the footer stretches across the whole page width in an open, centered sort of way. */
 footer {
@@ -139,6 +170,7 @@ footer {
   text-align: center;
   margin: 20px;
   clear: both;
+  border-radius: 5px;
 }
 
 
