@@ -68,6 +68,10 @@ nav p {
   padding-bottom: 1cm;
 }
 
+nav p a {
+  text-decoration: none;
+}
+
 nav img {
   margin-top: 10px;
 }
