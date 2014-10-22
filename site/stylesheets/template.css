@@ -22,7 +22,7 @@ div {
 body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  background-color: #073596;
+  background-color: #f8f5f1;
 }
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
@@ -33,7 +33,7 @@ body {
   min-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #77B008;
+  background-color: #2e5885;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -57,16 +57,23 @@ header {
 }
 
 nav {
-  width: 34.4%;
+  width: 18%;
   height: 100%;
   float: left;
-  background-color: #E85539;
+  background-color: #ffff90;
   border-radius: 5px;
+  margin:0 0 0 20px;
 }
 
 .links {
   color: #000000;
   padding-bottom: 1cm;
+  border: 1px solid gray;
+  padding:10px;
+  text-align:center;
+  border-radius:5px;
+  margin:10px;
+
 }
 
 a {
@@ -74,7 +81,9 @@ a {
 }
 
 nav img {
-  margin-top: 10px;
+  margin: 10px;
+
+  
 }
 
 .articles {
@@ -85,6 +94,7 @@ nav img {
  	
 .page_heading {
     margin-left: 20px;
+    color: white;
 } 
 
 #indent {
@@ -116,12 +126,14 @@ article {
   margin-left: 20px;
   padding: 10px;
   border: 1px solid black;
-  background-color: #68960E;
+  background-color: #5e7fa8;
 }
 
 .article_heading h2 {
   margin: 0;
+  color:white;
 }
+i {color:white;}
 
 /* This is a style guide to make the h2 headings for each article look like
 and h1 heading. These are the default settings for an h1 header. I got these
@@ -132,16 +144,34 @@ settings from http://www.w3schools.com/tags/tag_hn.asp. */
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
+    margin-left: 0px;
+    font-weight: bold;
+    color:white;
+    
+
+}
+
+.home_big_heading {
+    display: block;
+    font-size: 2em;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     margin-left: 40px;
     font-weight: bold;
+    color:white;
+    
+
 }
 
 .article_content {
   margin: 0 20px 0 20px;
   padding: 10px;
   border: 1px solid gray;
-  background-color: #68960E;
+  background-color: #9abedf;
+
 }
+
 
 .prompt_text {
   font-size: 24px;
